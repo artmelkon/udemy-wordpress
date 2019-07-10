@@ -11,7 +11,7 @@ get_header();
 ============================================= -->
 <section id="page-title">
   <div class="container clearfix">
-    <h1>Eperimental Code</h1>
+    <h1><?php the_title(); ?></h1>
   </div>
 </section><!-- #page-title end -->
 
