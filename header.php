@@ -99,13 +99,13 @@
       ?>
     </div><!-- #logo end -->
 
-    <div class="top-advert">
+    <!-- <div class="top-advert">
       <?php
       if( function_exists( 'quads_ad' ) ) {
-        echo quads_ad([ 'location' => 'udemy_header' ]);
+        // echo quads_ad([ 'location' => 'udemy_header' ]);
       }
       ?>
-    </div>
+    </div> -->
 
   </div>
 

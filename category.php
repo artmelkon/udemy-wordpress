@@ -4,7 +4,7 @@
 <section id="page-title">
 
   <div class="container clearfix">
-    <h1><?php the_archive_title(); ?></h1>
+    <h1><?php echo the_archive_title(); ?></h1>
     <span><?php the_archive_description(); ?></span>
   </div>
 

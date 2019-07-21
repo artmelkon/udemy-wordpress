@@ -24,8 +24,9 @@ get_header();
     <div class="container clearfix">
 
       <?php
-      
-        wp_loginout();
+        // echo '<a href="' . get_bloginfo( 'wpurl' ) . '">' . get_bloginfo( 'admin_email' ) . '</a><br>';
+        // wp_loginout();
+        single_post_title();
 
       ?>
 
