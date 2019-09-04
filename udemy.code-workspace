@@ -2,9 +2,13 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "/opt/lampp/htdocs/artmelkon/wp-content/plugins/recipe"
 		}
 	],
 	"settings": {
-		"editor.fontSize": 9.5
+		"editor.fontSize": 9.5,
+		"liveServer.settings.multiRootWorkspaceName": "udemy"
 	}
 }

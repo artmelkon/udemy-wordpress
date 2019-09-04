@@ -12,6 +12,7 @@ include( get_theme_file_path( '/includes/theme-customizer.php' ) );
 include( get_theme_file_path( '/includes/customizer/social.php' ) );
 include( get_theme_file_path( '/includes/customizer/misc.php') );
 include( get_theme_file_path( '/includes/customizer/enqueue.php') );
+include( get_theme_file_path( '/includes/shortcodes.php' ) );
 
 //Hooks
 add_action( 'wp_enqueue_scripts','ju_enqueue' );
@@ -21,3 +22,4 @@ add_action( 'customize_register', 'ju_customize_register');
 add_action( 'customize_preview_init', 'ju_customize_preview_init' );
 
 //Shortcodes
+add_shortcode( 'amshortcode', 'am_shortcode');
