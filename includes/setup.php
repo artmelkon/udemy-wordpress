@@ -6,6 +6,29 @@ function ju_setup_theme() {
   add_theme_support( 'custom-logo' );
   add_theme_support( 'automatic-feed-links' );
   add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption' ) );
+  
+  // Woocommerce theme support
+  add_theme_support( 'woocommerce', [
+      'thumbnail_image_width'       =>  255,
+      'single_image_width'          =>  255,
+      'product_grid'                =>  [
+          'default_rows'            =>  10,
+          'min_rows'                =>  5,
+          'max_rows'                =>  10,
+          'default_columns'          =>  1,
+          'min_columns'             =>  1,
+          'max_columns'             =>  1,
+      ]
+  ] );
+
+  add_theme_support( 'wc-product-gallery-zoom' );
+  add_theme_support( 'wc-product-gallery-lightbox' );
+  add_theme_support( 'wc-product-gallery-slider' );
+
+if ( ! isset( $content_width ) ) {
+	$content_width = 600;
+}
+
   add_theme_support( 'starter-conent', array(
     'starter-content', [
       'widgets'                   =>  [

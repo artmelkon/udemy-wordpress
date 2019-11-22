@@ -9,6 +9,10 @@
 	],
 	"settings": {
 		"editor.fontSize": 9.5,
-		"liveServer.settings.multiRootWorkspaceName": "udemy"
+		"liveServer.settings.multiRootWorkspaceName": "udemy",
+		"files.autoSave": "afterDelay",
+		"files.autoSaveDelay": 1000,
+		"editor.tabSize": 2,
+		"php.executablePath": "/usr/bin/php7.2"
 	}
 }

@@ -44,7 +44,6 @@
           </div><!-- .top-links end -->
 
         </div>
-
         <div class="col_half fright col_last nobottommargin">
 
           <!-- Top Social
@@ -98,9 +97,10 @@
       }
       ?>
     </div><!-- #logo end -->
-
+    
     <!-- <div class="top-advert">
       <?php
+      // Login With Ajax shortcode
       if( function_exists( 'quads_ad' ) ) {
         // echo quads_ad([ 'location' => 'udemy_header' ]);
       }
@@ -108,7 +108,9 @@
     </div> -->
 
   </div>
-
+  <!-- <div class="col login">
+        <?php echo do_shortcode( '[login-with-ajax profile_link=1 registration=1 remember=1 template="modal"]' ); ?>
+  </div> -->
   <div id="header-wrap">
 
     <!-- Primary Navigation
